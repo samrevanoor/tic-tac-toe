@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: lightslategray;
+}
+
+h1, h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 40px 40px 40px;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.grid {
+    width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cell {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(226, 204, 4);
+    font-size: 70px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+button {
+    background-color: navy;
+    border-width: 2px;
+    border-radius: 50px;
+    color: lightgray;
+    font-size: 16px;
+    font-family: 'Nothing You Could Do', cursive;
+    padding: 20px;
+    margin: 25px 0 0 0;
+}
+
+button:hover {
+    background-color: rgb(29, 93, 177);
+}
+
+.index0, .index1, .index2 {
+    border-bottom: 10px solid navy;
+}
+
+.index0, .index3, .index6 {
+    border-right: 10px solid navy;
+}
+
+.index2, .index5, .index8 {
+    border-left: 10px solid navy;
+}
+
+.index6, .index7, .index8 {
+    border-top: 10px solid navy;
+}
